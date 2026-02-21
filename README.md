@@ -122,7 +122,7 @@ git config --global user.name "Atul Kamble"
 git config --global user.email "atul_kamble@hotmail.com"
 git config --list
 
-git remote set-url origin https://atulkamble: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@github.com/atulkamble/Inventory-Manager.git
+git remote set-url origin https://atulkamble:<GitHub Personal Access Token>@github.com/atulkamble/Inventory-Manager.git
 
 sudo systemctl start docker 
 sudo systemctl enable docker 
